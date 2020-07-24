@@ -24,7 +24,7 @@ const EFFECTS = {
   FEMALE_LAUGH: "Audio/Female_laugh.mp3",
   SHARPEN: "Audio/Sharpen.mp3",
   MAGIC: "Audio/Magic.mp3",
-  NIGHT: "Audio/Night.mp3",
+  NIGHT: "Audio/Night.WAV",
   BANG: 'Audio/Bang.mp3',
   FAIR: 'Audio/Fair.mp3',
   CHEER: 'Audio/Cheer.mp3',
