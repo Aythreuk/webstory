@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Almendra;
+    src: url(Almendra/Almendra-Regular.ttf);
+}
+
+@font-face {
+    font-family: AlmendraBold;
+    src: url(Almendra/Almendra-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlmendraItalics;
+    src: url(Almendra/Almendra-Italic.ttf)
+}
+
+body {
+    background-color: #000000;
+    background-image: url('backgrounds/default_background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#chapterselectbox {
+    float: left;
+    border:1px;
+}
+
+span {
+    padding: 15px;
+    border: 4px solid black;
+    background-color:rgba(255,255,255,0.8);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 48px;
+}
+
+header {
+    user-select: none;
+    font-family: "AlmendraBold", sans-serif;
+    text-align: center;
+}
+
+h2, button {
+    font-family: "Almendra", sans-serif;
+    text-align:center;
+}
+
+p {
+    user-select: none;
+    font-family: "Almendra", sans-serif;
+    white-space: pre-line;
+    background-color:rgba(255,255,255,0.8);
+    padding:50px;
+    width: 1000px;
+    height: 800px;
+    border: 4px solid black;
+    margin: auto;
+    font-size: 24px
+}
+
+#chapterselectbox > button {
+    margin: 4px;
+    width:50px;
+    height:50px;
+    transition: 1s;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+#chapterselectbox > button:hover {
+    width: 100px;
+}
+
+#nextButton {
+    margin: 5px;
+    width:50px;
+    height:50px;
+    position: fixed;
+    width: 20%;
+    right: 40%;
+    left: 40%;
+    bottom: 0px;
+    font-size: 24px;
+}
+
+.storyContent {
+    display: none;
+}
+
+#softicon {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+user-select: none;
+border: 4px solid black;
+padding: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color:rgba(255,255,255,0.8);
+position: fixed;
+right: 0;
+bottom: 0;
+font-family: "Almendra", sans-serif;
+font-size: 16px;
+}
+
+#contributors {
+    text-decoration: underline black;
+}
+
